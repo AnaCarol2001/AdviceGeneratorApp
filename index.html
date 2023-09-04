@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Advice generator app | Frontend Mentor</title>
+    <meta name="author" content="Ana Carolina" />
+    <meta name="description" content="App generates random quotes of advice." />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Api, Frontend, Advice"
+    />
+
+    <link rel="stylesheet" href="./src/styles.css" />
+
+    <!-- Bootstrap & Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- Bootstrap & Bootstrap Icons -->
+  </head>
+  <body class="b-color">
+    <div class="container">
+      <main
+        class="d-flex align-items-center justify-content-center min-height-100"
+      >
+        <div id="loading-js" class="spinner-grow">
+          <span class="visually-hidden">Loading content...</span>
+        </div>
+        <div
+          id="advice-container-js"
+          class="advice-container d-flex flex-column gap-3 gap-md-4 align-items-center text-center px-4 px-md-5 py-5 rounded-4 shadow-lg d-none"
+        >
+          <div>
+            <small>Advice #<span id="id-js">000</span></small>
+          </div>
+          <div>
+            <h3 id="advice-js">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit.
+            </h3>
+          </div>
+          <div class="break w-100 mb-2 mb-md-3">
+            <span class="border-4 border-start border-end rounded m-2"></span>
+            <span class="border-4 border-start border-end rounded m-2"></span>
+          </div>
+          <button
+            id="advice-btn-js"
+            type="button"
+            class="advice-btn"
+            title="New Advice"
+          >
+            <i class="bi bi-dice-5-fill"></i>
+          </button>
+        </div>
+      </main>
+      <footer class="fixed-bottom text-center font-monospace">
+        <p>
+          Challenge by
+          <a
+            class="link-color"
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a
+            class="link-color"
+            href="https://github.com/AnaCarol2001"
+            target="_blank"
+            >AnaCarolina</a
+          >.
+        </p>
+      </footer>
+    </div>
+
+    <script src="./src/app.js"></script>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap -->
+  </body>
+</html>

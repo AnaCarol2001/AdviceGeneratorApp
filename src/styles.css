@@ -1,0 +1,89 @@
+:root {
+  --lightCyan: hsl(193, 38%, 86%);
+  --neonGreen: hsl(150, 100%, 66%);
+
+  --grayishBlue: hsl(217, 19%, 38%);
+  --darkGrayishBlue: hsl(217, 19%, 24%);
+  --darkBlue: hsl(218, 23%, 16%);
+}
+
+.b-color {
+  background-color: var(--darkBlue);
+  color: var(--lightCyan);
+}
+
+.min-height-100 {
+  min-height: 100svh;
+}
+
+.advice-container {
+  position: relative;
+  background-color: var(--darkGrayishBlue);
+  max-width: 700px;
+}
+
+small {
+  color: var(--neonGreen);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.break {
+  position: relative;
+  overflow: hidden; /*bootstrap: overflow-hidden*/
+  color: var(--lightCyan);
+}
+
+.break::after,
+.break::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  height: 1px;
+  width: 50%;
+  background-color: var(--grayishBlue);
+  margin-top: 11px;
+}
+
+.break::before {
+  transform: translateX(-100%);
+}
+
+.advice-btn {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  background-color: var(--neonGreen);
+  border: none;
+  border-radius: 50%;
+  padding: 0.9em 1.2em;
+}
+
+.advice-btn i {
+  font-size: 1.3rem;
+}
+
+.advice-btn:hover {
+  box-shadow: 0 0 50px var(--neonGreen);
+  transition: 0.3s linear;
+}
+
+.advice-btn:active i {
+  opacity: 0.5;
+}
+
+.advice-btn:disabled {
+  opacity: 0.7;
+  transform: translateY(50%) rotate(180deg);
+  transition: transform 1.8s linear 0.2s;
+  box-shadow: 0 0 10px var(--neonGreen);
+}
+
+footer p {
+  letter-spacing: 1px;
+}
+
+.link-color {
+  color: var(--neonGreen);
+}

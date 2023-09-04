@@ -22,8 +22,8 @@
   max-width: 700px;
 }
 
-small {
-  color: var(--neonGreen);
+.advice-color {
+  color: var(--neonGreen) !important;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 600;

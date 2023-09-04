@@ -33,9 +33,8 @@ Usuários deveriam ser capazes de:
 <!-- ![]() -->
 
 ### Links
-
-- URL da Solução: [URL]()
-- URL do Site: [URL]()
+- URL da Solução: [https://github.com/AnaCarol2001/AdviceGeneratorApp](https://github.com/AnaCarol2001/AdviceGeneratorApp)
+- URL do Site: [https://anacarol2001.github.io/AdviceGeneratorApp/](https://anacarol2001.github.io/AdviceGeneratorApp/)
 
 ## Meu processo
 
